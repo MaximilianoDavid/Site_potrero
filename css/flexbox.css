@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: brown;
+}
+
+
+header{
+    background-color: #84bb58;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo{
+    background-color: transparent;
+    margin: 25px;    
+}
+
+header a{
+    color: black;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+nav a {
+    background-color: #da4d4d;
+    border: 5px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 3px;
+
+}
+
+nav li {
+    list-style-type: none;
+    display: contents;
+    color: black;
+    font-size: initial;
+    font-family: fangsong;
+}
+
+
+
+main{
+    height: 70vh;
+}
+
+main h3{
+    padding: 10px;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #768a66;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.boxelement{
+    border: 5px solid black;
+    background-color: #9e9d9d;
+    margin: 5px;
+    width: 250px;
+    height: 340px;
+}
+
+.boxelement li{
+    padding: 10px;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.box {
+    border: 5px solid black;
+    background-color: #da4d4d;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+footer{
+    border: 5px solid black;
+    background-color: #d89942;
+    margin: 5px; 
+    text-align: center;
+}
+
+.fotterx{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerbox{
+   border: 5px solid black;
+   background-color: #bfbc77;
+   margin: 5px;
+   width: 300px;
+   height: 140px;
+}
+
+.footerbox a {
+    background-color: #da4d4d;
+    border: 5px solid black;
+    padding: 10px;
+    text-decoration: none;
+    margin: 3px;
+    font-family: monospace;
+    color: black;
+    font-size: 20px;  
+}
+
+.footercopy{
+    border: 5px solid black;
+    background-color: #da4d4d;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    header{
+    padding: 20px;
+    border: 5px solid black;
+    margin: 5px;
+    /**/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /**/
+}
+    
+    nav{
+        display: flex;
+        flex-flow: column;
+    }
+    
+    aside{
+        width: 100%
+    }
+    
+    .boxelement {
+    border: 5px solid black;
+    margin: 15px;
+    width: auto;    
+    height: 300px;
+}
+    
+    .fotterx{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
+    .footerbox {  
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+    
+}
+
